@@ -1,4 +1,4 @@
-import creatematch
+import creatematchlist
 ######################################################################
 
 def main():
@@ -6,8 +6,7 @@ def main():
     ottelulista = []
     joukkuelista = []
 
-    creatematch(ottelulista, joukkuelista)
-
+    creatematchlist.creatematchlist(ottelulista, joukkuelista)
 
 
 main()
